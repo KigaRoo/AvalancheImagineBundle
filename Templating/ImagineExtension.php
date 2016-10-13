@@ -3,7 +3,7 @@
 namespace Avalanche\Bundle\ImagineBundle\Templating;
 
 use Avalanche\Bundle\ImagineBundle\Imagine\CachePathResolver;
-use Symfony\Component\Filesystem\Filesystem;
+use Symfony\Component\HttpKernel\Util\Filesystem;
 
 class ImagineExtension extends \Twig_Extension
 {
@@ -55,3 +55,4 @@ class ImagineExtension extends \Twig_Extension
         return 'imagine';
     }
 }
+
